@@ -1,0 +1,8 @@
+node_modules/
+dist/
+*.log
+.env
+.DS_Store
+
+# Temporary agent execution artifacts
+/tmp/run_*

@@ -1,0 +1,28 @@
+{
+  "name": "deterministic-agent",
+  "version": "1.0.0",
+  "description": "Minimal, zero-framework deterministic agent runtime with O(1) context bounds and epistemic memory.",
+  "main": "harness.ts",
+  "type": "module",
+  "scripts": {
+    "start": "tsx harness.ts",
+    "build": "tsc"
+  },
+  "keywords": [
+    "agent-harness",
+    "deterministic-ai",
+    "zod",
+    "context-window",
+    "state-machine"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^22.5.5",
+    "tsx": "^4.19.1",
+    "typescript": "^5.6.2"
+  }
+}
